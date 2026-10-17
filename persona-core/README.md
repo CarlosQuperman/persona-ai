@@ -24,7 +24,7 @@ VESSL Workspace를 다음 옵션으로 생성합니다.
 
 ```bash
 cd /root
-git clone --depth 1 https://github.com/gamza-lab/persona-ai.git
+git clone https://github.com/gamza-lab/persona-ai.git
 cd persona-ai
 python3.13 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
