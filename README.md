@@ -8,7 +8,7 @@ VESSL에서 실행하는 하나의 언어 모델 서버를 CLI, 웹 브라우저
 - CLI 대화: [`persona-core/README.md`](persona-core/README.md)
 - 웹 브라우저 채팅: [`web-chat/README.md`](web-chat/README.md)
 - Roblox 채팅: [`roblox-chat/README.md`](roblox-chat/README.md)
-- Roblox Studio 프로젝트: [`SejongAI.rbxlx`](roblox-chat/SejongAI/SejongAI.rbxlx)
+- Roblox Studio 프로젝트: [`TuringAI_Future_Campus_Connected.rbxlx`](https://drive.google.com/file/d/1OcH5y2B-C-CaR_eSTrFZnxEgShykMEud/view?usp=sharing)
 
 ## 공통 실행 환경
 
