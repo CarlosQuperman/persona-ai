@@ -1,4 +1,4 @@
-# 세종AI Roblox 실습
+# 앨런 튜링 Roblox 실습
 
 VESSL 서버에서 세종 페르소나 모델과 Roblox용 API를 실행하고, 개인 PC의 Roblox Studio에서 서버 주소를 연결하는 실습입니다.
 
