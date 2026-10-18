@@ -10,7 +10,7 @@ from models.conversation import ChatRequest
 
 
 class PersonaModel:
-    """기존 세종 프롬프트와 역사 자료 검색을 재사용해 vLLM에 답변을 요청한다."""
+    """persona-core의 튜링 프롬프트와 자료 검색을 재사용해 vLLM에 답변을 요청한다."""
 
     def __init__(self):
         """검색기와 모델 클라이언트를 만들고 프롬프트→모델→문자열 처리를 연결한다."""
@@ -29,7 +29,7 @@ class PersonaModel:
         self.chain = prompt | self.llm | StrOutputParser()
 
     def inputs(self, request: ChatRequest):
-        """현재 질문, 이전 대화, 검색한 역사 근거를 프롬프트 입력으로 구성한다.
+        """현재 질문, 이전 대화, 검색한 자료 근거를 프롬프트 입력으로 구성한다.
 
         사용자 자기소개는 따로 보존하고, 모델에 넣는 이전 대화 본문은
         2,000자 이내가 되도록 오래된 질문·답변 쌍부터 제외한다.
@@ -50,7 +50,7 @@ class PersonaModel:
             "intro": request.state.intro or request.message,
             "question": request.message,
             "history": [(item.role, item.content) for item in history],
-            "evidence": "\n\n".join(evidence) or "관련 역사 자료가 검색되지 않았다.",
+            "evidence": "\n\n".join(evidence) or "관련 자료가 검색되지 않았다.",
         }
 
     async def respond(self, request: ChatRequest):

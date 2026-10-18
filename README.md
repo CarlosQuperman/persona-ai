@@ -24,7 +24,7 @@ VESSL Workspace는 `Torch 2.9.1 (CUDA 13.0.1, Python 3.13)` 컨테이너와
 persona-core/             # 공통 페르소나와 터미널 대화 실습
 web-chat/                 # 웹 채팅 서버와 화면
 roblox-chat/
-  SejongAI/               # Roblox Studio 프로젝트와 Luau 코드
+  TuringAI/               # Roblox Studio 프로젝트와 Luau 코드
   vessl-server/           # Roblox용 Python API 서버
 ```
 
