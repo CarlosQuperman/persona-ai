@@ -1,6 +1,6 @@
 # 앨런 튜링 Roblox 실습
 
-VESSL 서버에서 세종 페르소나 모델과 Roblox용 API를 실행하고, 개인 PC의 Roblox Studio에서 서버 주소를 연결하는 실습입니다.
+VESSL 서버에서 앨런 튜링 챗봇 Roblox용 API를 실행하고, 개인 PC의 Roblox Studio에서 서버 주소를 연결하는 실습입니다.
 
 ## 프로젝트 구성
 
@@ -120,8 +120,8 @@ WEB_HOST=0.0.0.0 WEB_PORT=7860 python roblox-chat/vessl-server/server.py
 
 ## 1. Roblox 프로젝트 다운로드하기
 
-1. GitHub에서 [`SejongAI.rbxlx`](./SejongAI/SejongAI.rbxlx)를 엽니다.
-2. 오른쪽 위의 **Download raw file**을 눌러 개인 PC에 내려받습니다.
+1. 이 링크 [`TuringAI_Future_Campus_Characters_Front_v2.rbxlx`](https://drive.google.com/file/d/1kzhRKwDqTGe5ukMWzwDnbjEkU5zoKvqv/view?usp=sharing)를 엽니다.
+2. 구글 드라이브 공유 파일을 개인 PC에 내려받습니다.
 3. Roblox Studio를 실행합니다.
 4. **파일 > 파일에서 열기**를 누르고 `SejongAI.rbxlx`를 선택합니다.
 5. **파일 > Roblox에 다른 이름으로 게시**를 눌러 자신의 계정에 저장합니다.
