@@ -71,9 +71,9 @@ VESSL의 **Connect > Exposed services**에서 `web-chat` 주소를 열면 됩니
 web-chat/
   server.py               # 서버 시작
   models/conversation.py  # 대화 데이터
-  models/persona.py       # 세종 자료 검색과 모델 호출
+  models/persona.py       # 튜링 자료 검색과 모델 호출
   controllers/chat.py     # 질문과 답변 처리
   views/chat.py           # 웹 화면
   views/style.css         # 화면 스타일
-  views/sejong.webp       # 세종 초상 이미지
+  views/sejong.webp       # 튜링 초상 이미지
 ```
