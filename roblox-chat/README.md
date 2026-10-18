@@ -55,7 +55,7 @@ nvidia-smi
 
 ```bash
 cd /root
-git clone --depth 1 https://github.com/gamza-lab/persona-ai.git
+git clone --depth 1 https://github.com/CarlosQuperman/persona-ai.git
 cd persona-ai
 ```
 
